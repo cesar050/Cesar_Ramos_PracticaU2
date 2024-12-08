@@ -1,0 +1,108 @@
+/* familia.css */
+body {
+    background-color: #e3f2fd; /* Fondo celeste pastel */
+    color: #ffffff; /* Color de texto blanco */
+    font-family:  'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #007bff; /* Azul oscuro para la barra de navegación */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #e3f2fd !important;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+h1 {
+    color: #004085; /* Azul más oscuro */
+    font-weight: bold;
+}
+
+.table {
+    background-color: #ffffff;
+    color: #004085; /* Azul oscuro para texto */
+    border: 1px solid #004085;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #d1e7ff; /* Celeste claro para hover */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #004085;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #00376f;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.form-select, .form-control {
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    color: #004085;
+    font-weight: bold;
+}
+
+.form-select:focus, .form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input::placeholder {
+    color: #6c757d;
+}
+
+.alert {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-warning {
+    background-color: #fff3cd; /* Amarillo claro */
+    color: #856404;
+}
+
+.animate__fadeIn {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+label {
+    color: #000000; 
+    font-weight: bold; 
+}
